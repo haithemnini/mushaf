@@ -1,0 +1,35 @@
+name: بلاغ عن خطأ
+description: سلوك غير متوقع في القارئ أو عند تجهيز حفص وورش
+title: "[خطأ] "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: ماذا حدث؟
+      description: صف السلوك. اذكر الرواية (حفص أو ورش) والمنصة (Android أو iOS أو macOS أو غيرها).
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: ماذا كنت تتوقع؟
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: إصدار الحزمة
+      placeholder: "0.2.0"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: خطوات إعادة المشكلة
+      placeholder: |
+        1. 
+        2. 
+        3. 
+    validations:
+      required: false

@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: الحزمة على pub.dev
+    url: https://pub.dev/packages/mushaf
+    about: التثبيت، التوثيق، ونتيجة التحليل على pub.dev
+  - name: الإصدارات
+    url: https://github.com/haithemnini/mushaf/releases
+    about: ما الذي تغيّر في كل إصدار

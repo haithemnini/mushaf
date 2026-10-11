@@ -1,0 +1,17 @@
+name: اقتراح
+description: تحسين على القارئ أو على طريقة استخدام الحزمة
+title: "[اقتراح] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: ما الذي ينقصك اليوم؟
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: ماذا تقترح؟
+    validations:
+      required: true

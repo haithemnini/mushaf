@@ -1,6 +1,13 @@
 # mushaf
 
+[![pub package](https://img.shields.io/pub/v/mushaf.svg)](https://pub.dev/packages/mushaf)
+[![pub points](https://img.shields.io/pub/points/mushaf.svg)](https://pub.dev/packages/mushaf/score)
+[![License: MIT](https://img.shields.io/badge/license-MIT-C9953E)](LICENSE)
+[![GitHub release](https://img.shields.io/github/v/release/haithemnini/mushaf?color=5A3823)](https://github.com/haithemnini/mushaf/releases)
+
 قارئ مصحف جاهز لـ Flutter، بروايتي **حفص عن عاصم** و**ورش عن نافع** في حزمة واحدة.
+
+الحزمة على [pub.dev](https://pub.dev/packages/mushaf) · الإصدارات على [GitHub Releases](https://github.com/haithemnini/mushaf/releases) · المثال في [`example/`](example/)
 
 تفتح سورة، تقلب الصفحات، وتضغط ضغطاً مطوّلاً على الآية لتحديدها. من الإعدادات تختار ملء الشاشة أو شكل الكتاب، والتمرير الأفقي أو العمودي، وصفحة واحدة أو صفحتين عندما تكون النافذة عريضة وأفقية. حفص يُرسم بخطوط QCF4، ويمكن تلوين التجويد. ورش يُرسم بخط واحد مع ضبط السطور.
 
@@ -50,8 +57,6 @@ import 'package:mushaf/mushaf.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  registerMushafHafsQcf4(localRoot: hafsPackRoot);
-  registerMushafWarsh(localRoot: warshPackRoot);
   await Mushaf.initialize();
   runApp(const MyApp());
 }
@@ -89,3 +94,5 @@ await Mushaf.initialize();
 ## الترخيص
 
 كود Dart تحت رخصة MIT. الخطوط ونص القرآن لهما شروط أصحاب الحقوق. راجع [LICENSE](LICENSE) و[NOTICE.md](NOTICE.md).
+
+للمشاركة في التطوير راجع [CONTRIBUTING.md](CONTRIBUTING.md).
