@@ -14,17 +14,16 @@ Small shared chrome used by both riwayat:
 These chrome files are attributed separately from the MIT engine. Confirm you
 may redistribute them before shipping a product that includes this package.
 
-## Not bundled
+## Bundled riwayat
 
-Hafs and Warsh ayah text and page fonts stay outside this package. A host
-downloads or otherwise obtains a pack and registers it at runtime:
-
-- Hafs QCF4: `registerMushafHafsQcf4(localRoot: …)`
-- Warsh: `registerMushafWarsh(localRoot: …)`
+`assets/packs/hafs.zip` and `assets/packs/warsh.zip` ship with the package.
+`Mushaf.initialize()` unpacks them on the device the first time the app runs,
+so Hafs (QCF4, 604 pages) and Warsh (599 pages) are ready without a separate
+download.
 
 QCF fonts and Quran text remain under the terms of their rights holders
 (including the King Fahd Complex / Quranic Universal Library where applicable).
-Do not commit those files to this repository.
+The MIT license covers the Dart reader only.
 
 ## Engine
 

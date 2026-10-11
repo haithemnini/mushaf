@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:mushaf/mushaf.dart';
 
-/// Example host. Pass extracted pack roots via dart-define:
+/// Example host. Hafs and Warsh ship inside the package and are unpacked
+/// on the first launch. Optional overrides:
 ///
 /// ```bash
 /// flutter run --dart-define=MUSHAF_HAFS_ROOT=/path/to/hafs \
@@ -9,20 +10,6 @@ import 'package:mushaf/mushaf.dart';
 /// ```
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
-
-  const hafsRoot = String.fromEnvironment('MUSHAF_HAFS_ROOT');
-  const warshRoot = String.fromEnvironment('MUSHAF_WARSH_ROOT');
-  if (hafsRoot.isNotEmpty) {
-    registerMushafHafsQcf4(localRoot: hafsRoot);
-  }
-  if (warshRoot.isNotEmpty) {
-    registerMushafWarsh(localRoot: warshRoot);
-  }
-
-  await Mushaf.initialize();
-  if (warshRoot.isNotEmpty) {
-    await Mushaf.ensureFontsLoaded();
-  }
   runApp(const MushafExampleApp());
 }
 
@@ -37,6 +24,38 @@ class _MushafExampleAppState extends State<MushafExampleApp> {
   ThemeMode _themeMode = ThemeMode.light;
   MushafReadingSettings _settings = const MushafReadingSettings();
   final Map<MushafAyahRef, MushafBookmarkColor> _bookmarks = {};
+  var _ready = false;
+  String? _error;
+
+  @override
+  void initState() {
+    super.initState();
+    _prepare();
+  }
+
+  Future<void> _prepare() async {
+    try {
+      const hafsRoot = String.fromEnvironment('MUSHAF_HAFS_ROOT');
+      const warshRoot = String.fromEnvironment('MUSHAF_WARSH_ROOT');
+      if (hafsRoot.isNotEmpty) {
+        registerMushafHafsQcf4(localRoot: hafsRoot);
+      }
+      if (warshRoot.isNotEmpty) {
+        registerMushafWarsh(localRoot: warshRoot);
+      }
+      await Mushaf.initialize();
+      await Mushaf.ensureFontsLoaded();
+      if (!mounted) {
+        return;
+      }
+      setState(() => _ready = true);
+    } catch (error) {
+      if (!mounted) {
+        return;
+      }
+      setState(() => _error = error.toString());
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -51,7 +70,25 @@ class _MushafExampleAppState extends State<MushafExampleApp> {
           child: child ?? const SizedBox.shrink(),
         );
       },
-      home: _Home(
+      home: !_ready
+          ? Scaffold(
+              body: Center(
+                child: Padding(
+                  padding: const EdgeInsets.all(24),
+                  child: _error == null
+                      ? const Column(
+                          mainAxisSize: MainAxisSize.min,
+                          children: [
+                            CircularProgressIndicator(),
+                            SizedBox(height: 16),
+                            Text('جاري تجهيز حفص وورش…', textAlign: TextAlign.center),
+                          ],
+                        )
+                      : Text(_error!, textAlign: TextAlign.center),
+                ),
+              ),
+            )
+          : _Home(
         themeMode: _themeMode,
         onThemeMode: (mode) => setState(() => _themeMode = mode),
         settings: _settings,
@@ -71,12 +108,14 @@ class _MushafExampleAppState extends State<MushafExampleApp> {
       primary: dark ? const Color(0xFFD7A957) : const Color(0xFFC9953E),
       surface: dark ? const Color(0xFF241A13) : const Color(0xFFFFFFFF),
       onSurface: dark ? const Color(0xFFF5EEE5) : const Color(0xFF2B211B),
-      onSurfaceVariant: dark ? const Color(0xFFC9B8A5) : const Color(0xFF806F60),
+      onSurfaceVariant:
+          dark ? const Color(0xFFC9B8A5) : const Color(0xFF806F60),
       outlineVariant: dark ? const Color(0xFF34261B) : const Color(0xFFE7D8C2),
     );
     return ThemeData(
       colorScheme: scheme,
-      scaffoldBackgroundColor: dark ? const Color(0xFF1C140F) : const Color(0xFFFCFAF5),
+      scaffoldBackgroundColor:
+          dark ? const Color(0xFF1C140F) : const Color(0xFFFCFAF5),
       useMaterial3: true,
     );
   }
@@ -132,9 +171,7 @@ class _HomeState extends State<_Home> {
         body: const Padding(
           padding: EdgeInsets.all(24),
           child: Text(
-            'لم تُسجَّل نسخة.\n'
-            'فك ضغط حزمة حفص أو ورش ثم شغّل المثال مع\n'
-            'MUSHAF_HAFS_ROOT و MUSHAF_WARSH_ROOT.',
+            'تعذّر فتح حفص وورش من ملفات الحزمة.',
             textAlign: TextAlign.center,
           ),
         ),
@@ -146,13 +183,19 @@ class _HomeState extends State<_Home> {
         title: const Text('المصحف'),
         actions: [
           IconButton(
-            tooltip: widget.themeMode == ThemeMode.dark ? 'الوضع النهاري' : 'الوضع الليلي',
+            tooltip: widget.themeMode == ThemeMode.dark
+                ? 'الوضع النهاري'
+                : 'الوضع الليلي',
             onPressed: () {
               widget.onThemeMode(
-                widget.themeMode == ThemeMode.dark ? ThemeMode.light : ThemeMode.dark,
+                widget.themeMode == ThemeMode.dark
+                    ? ThemeMode.light
+                    : ThemeMode.dark,
               );
             },
-            icon: Icon(widget.themeMode == ThemeMode.dark ? Icons.light_mode_outlined : Icons.dark_mode_outlined),
+            icon: Icon(widget.themeMode == ThemeMode.dark
+                ? Icons.light_mode_outlined
+                : Icons.dark_mode_outlined),
           ),
         ],
       ),
@@ -167,14 +210,18 @@ class _HomeState extends State<_Home> {
                   ButtonSegment(value: MushafRiwayah.warsh, label: Text('ورش')),
                 ],
                 selected: {_riwayah},
-                onSelectionChanged: (value) => setState(() => _riwayah = value.first),
+                onSelectionChanged: (value) =>
+                    setState(() => _riwayah = value.first),
               ),
             ),
           Padding(
             padding: const EdgeInsets.fromLTRB(16, 12, 16, 0),
             child: Text(
-              _riwayah == MushafRiwayah.hafs ? 'حفص عن عاصم · ٦٠٤ صفحة' : 'ورش عن نافع · ٥٩٩ صفحة',
-              style: textTheme.bodySmall?.copyWith(color: colors.onSurfaceVariant),
+              _riwayah == MushafRiwayah.hafs
+                  ? 'حفص عن عاصم · ٦٠٤ صفحة'
+                  : 'ورش عن نافع · ٥٩٩ صفحة',
+              style:
+                  textTheme.bodySmall?.copyWith(color: colors.onSurfaceVariant),
             ),
           ),
           Expanded(
@@ -191,7 +238,8 @@ class _HomeState extends State<_Home> {
   }
 
   Future<void> _open(MushafSurah surah) async {
-    final page = await resolveMushafSurahPage(riwayah: _riwayah, surahId: surah.id);
+    final page =
+        await resolveMushafSurahPage(riwayah: _riwayah, surahId: surah.id);
     if (!mounted) {
       return;
     }

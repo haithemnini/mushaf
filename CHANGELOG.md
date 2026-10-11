@@ -1,3 +1,9 @@
+## 0.2.0
+
+- Hafs (QCF4) and Warsh now ship inside the package. `Mushaf.initialize()`
+  unpacks them on first launch, so both riwayat are ready without a separate
+  download.
+
 ## 0.1.1
 
 - Added reader screenshots to the package page: surah list, Warsh, Hafs

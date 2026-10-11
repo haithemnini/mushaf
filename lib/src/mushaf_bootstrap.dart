@@ -1,6 +1,7 @@
 import 'package:flutter/services.dart';
 
 import 'assets/mushaf_assets.dart';
+import 'assets/mushaf_bundled_packs.dart';
 import 'fonts/mushaf_fonts.dart';
 import 'fonts/qpc_page_fonts.dart';
 import 'hafs/hafs_qcf4_fonts.dart';
@@ -23,17 +24,23 @@ abstract final class Mushaf {
     return repo;
   }
 
-  /// Registers shared paths and creates the default [MushafRepository].
+  /// Creates the repository and unpacks the bundled Hafs and Warsh packs.
   ///
-  /// Register a downloaded riwayah with [registerMushafHafs] /
-  /// [registerMushafWarsh] before the first page load.
+  /// The first call copies the packaged files onto the device. Later calls
+  /// reuse that copy. Pass [bundledPacks] false only when the host registers
+  /// its own folders with [registerMushafHafsQcf4] and [registerMushafWarsh]
+  /// before this call. A riwayah already registered is not replaced.
   static Future<void> initialize({
     AssetBundle? bundle,
     MushafRepository? repository,
+    bool bundledPacks = true,
   }) async {
     MushafAssets.configureSurahs();
     _repository = repository ?? MushafRepository(bundle: bundle);
     _initialized = true;
+    if (bundledPacks) {
+      await installBundledMushafPacks(bundle: bundle);
+    }
   }
 
   /// Warm Unicode fonts for all registered riwayat (optional at app start).

@@ -41,7 +41,7 @@ A Flutter mushaf reader for **Hafs (QCF4)** and **Warsh**: surah list, page turn
 
 ```yaml
 dependencies:
-  mushaf: ^0.1.1
+  mushaf: ^0.2.0
 ```
 
 ```dart
@@ -69,23 +69,22 @@ MushafReader(
 
 `MushafReaderController.goToPage` و`goToAyah` ينقلان الصفحة ويميزان الآية. لورش استخدم `MushafRiwayah.warsh` بعد `registerMushafWarsh`.
 
-## من أين تأتي الصفحات؟
+## حفص وورش داخل الحزمة
 
-الحزمة هي برنامج الرسم والقراءة. نص الآيات وخطوط الصفحات يوفّرها تطبيقك، لأن ملفات حفص وحدها أكبر من حد النشر على pub.dev، وحقوقها مستقلة عن رخصة الكود.
-
-بعد فك ضغط الحزمة على الجهاز:
-
-- حفص: مجلد يحتوي `assets/quran/hafs_qcf4/` (خط لكل صفحة، وملفات التخطيط).
-- ورش: مجلد يحتوي `assets/quran/warsh/` وخطوط ورش.
+الملفان `assets/packs/hafs.zip` و`assets/packs/warsh.zip` جزء من الحزمة. أول استدعاء لـ `Mushaf.initialize()` يفكّهما على الجهاز، وبعدها حفص وورش جاهزان. لا يحتاج المستخدم إلى تنزيل منفصل.
 
 ```bash
 cd example
-flutter run \
-  --dart-define=MUSHAF_HAFS_ROOT=/path/to/extracted/hafs \
-  --dart-define=MUSHAF_WARSH_ROOT=/path/to/extracted/warsh
+flutter run
 ```
 
-بدون هذين المسارين يفتح المثال ويشرح أن النسخة غير مسجّلة.
+إن أردت استخدام مجلد خاص بدل الملفات المضمّنة، سجّله قبل `initialize`:
+
+```dart
+registerMushafHafsQcf4(localRoot: hafsPackRoot);
+registerMushafWarsh(localRoot: warshPackRoot);
+await Mushaf.initialize();
+```
 
 ## الترخيص
 

@@ -1,8 +1,8 @@
 name: mushaf
 description: >
-  Flutter mushaf reader for Hafs (QCF4) and Warsh, with ayah selection,
-  page navigation, fullscreen, and book layout.
-version: 0.1.1
+  Flutter mushaf with Hafs and Warsh bundled and ready to read, including
+  ayah selection, page navigation, fullscreen, and book layout.
+version: 0.2.0
 homepage: https://github.com/haithemnini/mushaf
 repository: https://github.com/haithemnini/mushaf
 issue_tracker: https://github.com/haithemnini/mushaf/issues
@@ -21,6 +21,7 @@ dependencies:
     sdk: flutter
   flutter_svg: ^2.0.10
   archive: ^4.0.9
+  path_provider: ^2.1.5
 
 dev_dependencies:
   flutter_test:
@@ -32,3 +33,5 @@ flutter:
     - assets/quran/surahs/
     - assets/quran/chrome/
     - assets/fonts/chrome/
+    - assets/packs/hafs.zip
+    - assets/packs/warsh.zip
