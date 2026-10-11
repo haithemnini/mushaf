@@ -1,0 +1,1315 @@
+[
+	{
+		"id": 1,
+		"name_ar": "الفَاتِحة",
+		"name_en": "Al-Fātiḥah",
+		"ayahs": 7,
+		"revelation_place_ar": "مكية",
+		"revelation_place_en": "Meccan",
+		"ayah_start": 1,
+		"ayah_end": 7,
+		"juz": 1
+	},
+	{
+		"id": 2,
+		"name_ar": "البَقَرَة",
+		"name_en": "Al-Baqarah",
+		"ayahs": 286,
+		"revelation_place_ar": "مدنية",
+		"revelation_place_en": "Medinan",
+		"ayah_start": 8,
+		"ayah_end": 293,
+		"juz": [
+			1,
+			2,
+			3
+		]
+	},
+	{
+		"id": 3,
+		"name_ar": "آل عِمران",
+		"name_en": "Āl-‘Imrān",
+		"ayahs": 200,
+		"revelation_place_ar": "مدنية",
+		"revelation_place_en": "Medinan",
+		"ayah_start": 294,
+		"ayah_end": 493,
+		"juz": [
+			3,
+			4
+		]
+	},
+	{
+		"id": 4,
+		"name_ar": "النِّسَاء",
+		"name_en": "An-Nisā’",
+		"ayahs": 176,
+		"revelation_place_ar": "مدنية",
+		"revelation_place_en": "Medinan",
+		"ayah_start": 494,
+		"ayah_end": 669,
+		"juz": [
+			4,
+			5,
+			6
+		]
+	},
+	{
+		"id": 5,
+		"name_ar": "المَائدة",
+		"name_en": "Al-Mā’idah",
+		"ayahs": 120,
+		"revelation_place_ar": "مدنية",
+		"revelation_place_en": "Medinan",
+		"ayah_start": 670,
+		"ayah_end": 789,
+		"juz": [
+			6,
+			7
+		]
+	},
+	{
+		"id": 6,
+		"name_ar": "الأنعَام",
+		"name_en": "Al-An‘ām",
+		"ayahs": 165,
+		"revelation_place_ar": "مكية",
+		"revelation_place_en": "Meccan",
+		"ayah_start": 790,
+		"ayah_end": 954,
+		"juz": [
+			7,
+			8
+		]
+	},
+	{
+		"id": 7,
+		"name_ar": "الأعرَاف",
+		"name_en": "Al-A‘rāf",
+		"ayahs": 206,
+		"revelation_place_ar": "مكية",
+		"revelation_place_en": "Meccan",
+		"ayah_start": 955,
+		"ayah_end": 1160,
+		"juz": [
+			8,
+			9
+		]
+	},
+	{
+		"id": 8,
+		"name_ar": "الأنفَال",
+		"name_en": "Al-Anfāl",
+		"ayahs": 75,
+		"revelation_place_ar": "مدنية",
+		"revelation_place_en": "Medinan",
+		"ayah_start": 1161,
+		"ayah_end": 1235,
+		"juz": [
+			9,
+			10
+		]
+	},
+	{
+		"id": 9,
+		"name_ar": "التوبَة",
+		"name_en": "At-Taubah",
+		"ayahs": 129,
+		"revelation_place_ar": "مدنية",
+		"revelation_place_en": "Medinan",
+		"ayah_start": 1236,
+		"ayah_end": 1364,
+		"juz": [
+			10,
+			11
+		]
+	},
+	{
+		"id": 10,
+		"name_ar": "يُونس",
+		"name_en": "Yūnus",
+		"ayahs": 109,
+		"revelation_place_ar": "مكية",
+		"revelation_place_en": "Meccan",
+		"ayah_start": 1365,
+		"ayah_end": 1473,
+		"juz": 11
+	},
+	{
+		"id": 11,
+		"name_ar": "هُود",
+		"name_en": "Hūd",
+		"ayahs": 123,
+		"revelation_place_ar": "مكية",
+		"revelation_place_en": "Meccan",
+		"ayah_start": 1474,
+		"ayah_end": 1596,
+		"juz": [
+			11,
+			12
+		]
+	},
+	{
+		"id": 12,
+		"name_ar": "يُوسُف",
+		"name_en": "Yūsuf",
+		"ayahs": 111,
+		"revelation_place_ar": "مكية",
+		"revelation_place_en": "Meccan",
+		"ayah_start": 1597,
+		"ayah_end": 1707,
+		"juz": [
+			12,
+			13
+		]
+	},
+	{
+		"id": 13,
+		"name_ar": "الرَّعد",
+		"name_en": "Ar-Ra‘d",
+		"ayahs": 43,
+		"revelation_place_ar": "مدنية",
+		"revelation_place_en": "Medinan",
+		"ayah_start": 1708,
+		"ayah_end": 1750,
+		"juz": 13
+	},
+	{
+		"id": 14,
+		"name_ar": "إبراهِيم",
+		"name_en": "Ibrāhīm",
+		"ayahs": 52,
+		"revelation_place_ar": "مكية",
+		"revelation_place_en": "Meccan",
+		"ayah_start": 1751,
+		"ayah_end": 1802,
+		"juz": 13
+	},
+	{
+		"id": 15,
+		"name_ar": "الحِجر",
+		"name_en": "Al-Ḥijr",
+		"ayahs": 99,
+		"revelation_place_ar": "مكية",
+		"revelation_place_en": "Meccan",
+		"ayah_start": 1803,
+		"ayah_end": 1901,
+		"juz": 14
+	},
+	{
+		"id": 16,
+		"name_ar": "النَّحل",
+		"name_en": "An-Naḥl",
+		"ayahs": 128,
+		"revelation_place_ar": "مكية",
+		"revelation_place_en": "Meccan",
+		"ayah_start": 1902,
+		"ayah_end": 2029,
+		"juz": 14
+	},
+	{
+		"id": 17,
+		"name_ar": "الإسرَاء",
+		"name_en": "Al-Isrā’",
+		"ayahs": 111,
+		"revelation_place_ar": "مكية",
+		"revelation_place_en": "Meccan",
+		"ayah_start": 2030,
+		"ayah_end": 2140,
+		"juz": 15
+	},
+	{
+		"id": 18,
+		"name_ar": "الكَهف",
+		"name_en": "Al-Kahf",
+		"ayahs": 110,
+		"revelation_place_ar": "مكية",
+		"revelation_place_en": "Meccan",
+		"ayah_start": 2141,
+		"ayah_end": 2250,
+		"juz": [
+			15,
+			16
+		]
+	},
+	{
+		"id": 19,
+		"name_ar": "مَريَم",
+		"name_en": "Maryam",
+		"ayahs": 98,
+		"revelation_place_ar": "مكية",
+		"revelation_place_en": "Meccan",
+		"ayah_start": 2251,
+		"ayah_end": 2348,
+		"juz": 16
+	},
+	{
+		"id": 20,
+		"name_ar": "طه",
+		"name_en": "Ṭā-Hā",
+		"ayahs": 135,
+		"revelation_place_ar": "مكية",
+		"revelation_place_en": "Meccan",
+		"ayah_start": 2349,
+		"ayah_end": 2483,
+		"juz": 16
+	},
+	{
+		"id": 21,
+		"name_ar": "الأنبيَاء",
+		"name_en": "Al-Anbiyā’",
+		"ayahs": 112,
+		"revelation_place_ar": "مكية",
+		"revelation_place_en": "Meccan",
+		"ayah_start": 2484,
+		"ayah_end": 2595,
+		"juz": 17
+	},
+	{
+		"id": 22,
+		"name_ar": "الحج",
+		"name_en": "Al-Ḥajj",
+		"ayahs": 78,
+		"revelation_place_ar": "مدنية",
+		"revelation_place_en": "Medinan",
+		"ayah_start": 2596,
+		"ayah_end": 2673,
+		"juz": 17
+	},
+	{
+		"id": 23,
+		"name_ar": "المؤمنُون",
+		"name_en": "Al-Mu’minūn",
+		"ayahs": 118,
+		"revelation_place_ar": "مكية",
+		"revelation_place_en": "Meccan",
+		"ayah_start": 2674,
+		"ayah_end": 2791,
+		"juz": 18
+	},
+	{
+		"id": 24,
+		"name_ar": "النور",
+		"name_en": "An-Nūr",
+		"ayahs": 64,
+		"revelation_place_ar": "مدنية",
+		"revelation_place_en": "Medinan",
+		"ayah_start": 2792,
+		"ayah_end": 2855,
+		"juz": 18
+	},
+	{
+		"id": 25,
+		"name_ar": "الفُرقَان",
+		"name_en": "Al-Furqān",
+		"ayahs": 77,
+		"revelation_place_ar": "مكية",
+		"revelation_place_en": "Meccan",
+		"ayah_start": 2856,
+		"ayah_end": 2932,
+		"juz": [
+			18,
+			19
+		]
+	},
+	{
+		"id": 26,
+		"name_ar": "الشعراء",
+		"name_en": "Ash-Shu‘arā’",
+		"ayahs": 227,
+		"revelation_place_ar": "مكية",
+		"revelation_place_en": "Meccan",
+		"ayah_start": 2933,
+		"ayah_end": 3159,
+		"juz": 19
+	},
+	{
+		"id": 27,
+		"name_ar": "النَّمل",
+		"name_en": "An-Naml",
+		"ayahs": 93,
+		"revelation_place_ar": "مكية",
+		"revelation_place_en": "Meccan",
+		"ayah_start": 3160,
+		"ayah_end": 3252,
+		"juz": [
+			19,
+			20
+		]
+	},
+	{
+		"id": 28,
+		"name_ar": "القَصَص",
+		"name_en": "Al-Qaṣaṣ",
+		"ayahs": 88,
+		"revelation_place_ar": "مكية",
+		"revelation_place_en": "Meccan",
+		"ayah_start": 3253,
+		"ayah_end": 3340,
+		"juz": 20
+	},
+	{
+		"id": 29,
+		"name_ar": "العَنكبُوت",
+		"name_en": "Al-‘Ankabūt",
+		"ayahs": 69,
+		"revelation_place_ar": "مكية",
+		"revelation_place_en": "Meccan",
+		"ayah_start": 3341,
+		"ayah_end": 3409,
+		"juz": [
+			20,
+			21
+		]
+	},
+	{
+		"id": 30,
+		"name_ar": "الرُّوم",
+		"name_en": "Ar-Rūm",
+		"ayahs": 60,
+		"revelation_place_ar": "مكية",
+		"revelation_place_en": "Meccan",
+		"ayah_start": 3410,
+		"ayah_end": 3469,
+		"juz": 21
+	},
+	{
+		"id": 31,
+		"name_ar": "لُقمَان",
+		"name_en": "Luqmān",
+		"ayahs": 34,
+		"revelation_place_ar": "مكية",
+		"revelation_place_en": "Meccan",
+		"ayah_start": 3470,
+		"ayah_end": 3503,
+		"juz": 21
+	},
+	{
+		"id": 32,
+		"name_ar": "السَّجدة",
+		"name_en": "As-Sajdah",
+		"ayahs": 30,
+		"revelation_place_ar": "مكية",
+		"revelation_place_en": "Meccan",
+		"ayah_start": 3504,
+		"ayah_end": 3533,
+		"juz": 21
+	},
+	{
+		"id": 33,
+		"name_ar": "الأحزَاب",
+		"name_en": "Al-Aḥzāb",
+		"ayahs": 73,
+		"revelation_place_ar": "مدنية",
+		"revelation_place_en": "Medinan",
+		"ayah_start": 3534,
+		"ayah_end": 3606,
+		"juz": [
+			21,
+			22
+		]
+	},
+	{
+		"id": 34,
+		"name_ar": "سَبإ",
+		"name_en": "Saba’",
+		"ayahs": 54,
+		"revelation_place_ar": "مكية",
+		"revelation_place_en": "Meccan",
+		"ayah_start": 3607,
+		"ayah_end": 3660,
+		"juz": 22
+	},
+	{
+		"id": 35,
+		"name_ar": "فَاطِر",
+		"name_en": "Fāṭir",
+		"ayahs": 45,
+		"revelation_place_ar": "مكية",
+		"revelation_place_en": "Meccan",
+		"ayah_start": 3661,
+		"ayah_end": 3705,
+		"juz": 22
+	},
+	{
+		"id": 36,
+		"name_ar": "يسٓ",
+		"name_en": "Yā-Sīn",
+		"ayahs": 83,
+		"revelation_place_ar": "مكية",
+		"revelation_place_en": "Meccan",
+		"ayah_start": 3706,
+		"ayah_end": 3788,
+		"juz": [
+			22,
+			23
+		]
+	},
+	{
+		"id": 37,
+		"name_ar": "الصَّافَات",
+		"name_en": "Aṣ-Ṣāffāt",
+		"ayahs": 182,
+		"revelation_place_ar": "مكية",
+		"revelation_place_en": "Meccan",
+		"ayah_start": 3789,
+		"ayah_end": 3970,
+		"juz": 23
+	},
+	{
+		"id": 38,
+		"name_ar": "صٓ",
+		"name_en": "Ṣād",
+		"ayahs": 88,
+		"revelation_place_ar": "مكية",
+		"revelation_place_en": "Meccan",
+		"ayah_start": 3971,
+		"ayah_end": 4058,
+		"juz": 23
+	},
+	{
+		"id": 39,
+		"name_ar": "الزُّمَر",
+		"name_en": "Az-Zumar",
+		"ayahs": 75,
+		"revelation_place_ar": "مكية",
+		"revelation_place_en": "Meccan",
+		"ayah_start": 4059,
+		"ayah_end": 4133,
+		"juz": [
+			23,
+			24
+		]
+	},
+	{
+		"id": 40,
+		"name_ar": "غَافِر",
+		"name_en": "Ghāfir",
+		"ayahs": 85,
+		"revelation_place_ar": "مكية",
+		"revelation_place_en": "Meccan",
+		"ayah_start": 4134,
+		"ayah_end": 4218,
+		"juz": 24
+	},
+	{
+		"id": 41,
+		"name_ar": "فُصِّلَت",
+		"name_en": "Fuṣṣilat",
+		"ayahs": 54,
+		"revelation_place_ar": "مكية",
+		"revelation_place_en": "Meccan",
+		"ayah_start": 4219,
+		"ayah_end": 4272,
+		"juz": [
+			24,
+			25
+		]
+	},
+	{
+		"id": 42,
+		"name_ar": "الشُّوري",
+		"name_en": "Ash-Shūra",
+		"ayahs": 53,
+		"revelation_place_ar": "مكية",
+		"revelation_place_en": "Meccan",
+		"ayah_start": 4273,
+		"ayah_end": 4325,
+		"juz": 25
+	},
+	{
+		"id": 43,
+		"name_ar": "الزُّخرُف",
+		"name_en": "Az-Zukhruf",
+		"ayahs": 89,
+		"revelation_place_ar": "مكية",
+		"revelation_place_en": "Meccan",
+		"ayah_start": 4326,
+		"ayah_end": 4414,
+		"juz": 25
+	},
+	{
+		"id": 44,
+		"name_ar": "الدُّخان",
+		"name_en": "Ad-Dukhān",
+		"ayahs": 59,
+		"revelation_place_ar": "مكية",
+		"revelation_place_en": "Meccan",
+		"ayah_start": 4415,
+		"ayah_end": 4473,
+		"juz": 25
+	},
+	{
+		"id": 45,
+		"name_ar": "الجاثِية",
+		"name_en": "Al-Jāthiyah",
+		"ayahs": 37,
+		"revelation_place_ar": "مكية",
+		"revelation_place_en": "Meccan",
+		"ayah_start": 4474,
+		"ayah_end": 4510,
+		"juz": 25
+	},
+	{
+		"id": 46,
+		"name_ar": "الأحقَاف",
+		"name_en": "Al-Aḥqāf",
+		"ayahs": 35,
+		"revelation_place_ar": "مكية",
+		"revelation_place_en": "Meccan",
+		"ayah_start": 4511,
+		"ayah_end": 4545,
+		"juz": 26
+	},
+	{
+		"id": 47,
+		"name_ar": "مُحمد",
+		"name_en": "Muḥammad",
+		"ayahs": 38,
+		"revelation_place_ar": "مدنية",
+		"revelation_place_en": "Medinan",
+		"ayah_start": 4546,
+		"ayah_end": 4583,
+		"juz": 26
+	},
+	{
+		"id": 48,
+		"name_ar": "الفَتح",
+		"name_en": "Al-Fatḥ",
+		"ayahs": 29,
+		"revelation_place_ar": "مدنية",
+		"revelation_place_en": "Medinan",
+		"ayah_start": 4584,
+		"ayah_end": 4612,
+		"juz": 26
+	},
+	{
+		"id": 49,
+		"name_ar": "الحُجُرَات",
+		"name_en": "Al-Ḥujurāt",
+		"ayahs": 18,
+		"revelation_place_ar": "مدنية",
+		"revelation_place_en": "Medinan",
+		"ayah_start": 4613,
+		"ayah_end": 4630,
+		"juz": 26
+	},
+	{
+		"id": 50,
+		"name_ar": "قٓ",
+		"name_en": "Qāf",
+		"ayahs": 45,
+		"revelation_place_ar": "مكية",
+		"revelation_place_en": "Meccan",
+		"ayah_start": 4631,
+		"ayah_end": 4675,
+		"juz": 26
+	},
+	{
+		"id": 51,
+		"name_ar": "الذَّاريَات",
+		"name_en": "Adh-Dhāriyāt",
+		"ayahs": 60,
+		"revelation_place_ar": "مكية",
+		"revelation_place_en": "Meccan",
+		"ayah_start": 4676,
+		"ayah_end": 4735,
+		"juz": [
+			26,
+			27
+		]
+	},
+	{
+		"id": 52,
+		"name_ar": "الطُّور",
+		"name_en": "Aṭ-Ṭūr",
+		"ayahs": 49,
+		"revelation_place_ar": "مكية",
+		"revelation_place_en": "Meccan",
+		"ayah_start": 4736,
+		"ayah_end": 4784,
+		"juz": 27
+	},
+	{
+		"id": 53,
+		"name_ar": "النَّجم",
+		"name_en": "An-Najm",
+		"ayahs": 62,
+		"revelation_place_ar": "مكية",
+		"revelation_place_en": "Meccan",
+		"ayah_start": 4785,
+		"ayah_end": 4846,
+		"juz": 27
+	},
+	{
+		"id": 54,
+		"name_ar": "القَمَر",
+		"name_en": "Al-Qamar",
+		"ayahs": 55,
+		"revelation_place_ar": "مكية",
+		"revelation_place_en": "Meccan",
+		"ayah_start": 4847,
+		"ayah_end": 4901,
+		"juz": 27
+	},
+	{
+		"id": 55,
+		"name_ar": "الرَّحمٰن",
+		"name_en": "Ar-Raḥmān",
+		"ayahs": 78,
+		"revelation_place_ar": "مدنية",
+		"revelation_place_en": "Medinan",
+		"ayah_start": 4902,
+		"ayah_end": 4979,
+		"juz": 27
+	},
+	{
+		"id": 56,
+		"name_ar": "الوَاقِعة",
+		"name_en": "Al-Wāqi‘ah",
+		"ayahs": 96,
+		"revelation_place_ar": "مكية",
+		"revelation_place_en": "Meccan",
+		"ayah_start": 4980,
+		"ayah_end": 5075,
+		"juz": 27
+	},
+	{
+		"id": 57,
+		"name_ar": "الحدِيد",
+		"name_en": "Al-Ḥadīd",
+		"ayahs": 29,
+		"revelation_place_ar": "مدنية",
+		"revelation_place_en": "Medinan",
+		"ayah_start": 5076,
+		"ayah_end": 5104,
+		"juz": 27
+	},
+	{
+		"id": 58,
+		"name_ar": "المُجَادلة",
+		"name_en": "Al-Mujādilah",
+		"ayahs": 22,
+		"revelation_place_ar": "مدنية",
+		"revelation_place_en": "Medinan",
+		"ayah_start": 5105,
+		"ayah_end": 5126,
+		"juz": 28
+	},
+	{
+		"id": 59,
+		"name_ar": "الحَشر",
+		"name_en": "Al-Ḥashr",
+		"ayahs": 24,
+		"revelation_place_ar": "مدنية",
+		"revelation_place_en": "Medinan",
+		"ayah_start": 5127,
+		"ayah_end": 5150,
+		"juz": 28
+	},
+	{
+		"id": 60,
+		"name_ar": "المُمتَحنَة",
+		"name_en": "Al-Mumtaḥanah",
+		"ayahs": 13,
+		"revelation_place_ar": "مدنية",
+		"revelation_place_en": "Medinan",
+		"ayah_start": 5151,
+		"ayah_end": 5163,
+		"juz": 28
+	},
+	{
+		"id": 61,
+		"name_ar": "الصَّف",
+		"name_en": "Aṣ-Ṣaff",
+		"ayahs": 14,
+		"revelation_place_ar": "مدنية",
+		"revelation_place_en": "Medinan",
+		"ayah_start": 5164,
+		"ayah_end": 5177,
+		"juz": 28
+	},
+	{
+		"id": 62,
+		"name_ar": "الجُمعَة",
+		"name_en": "Al-Jumu‘ah",
+		"ayahs": 11,
+		"revelation_place_ar": "مدنية",
+		"revelation_place_en": "Medinan",
+		"ayah_start": 5178,
+		"ayah_end": 5188,
+		"juz": 28
+	},
+	{
+		"id": 63,
+		"name_ar": "المُنَافِقُونَ",
+		"name_en": "Al-Munāfiqūn",
+		"ayahs": 11,
+		"revelation_place_ar": "مدنية",
+		"revelation_place_en": "Medinan",
+		"ayah_start": 5189,
+		"ayah_end": 5199,
+		"juz": 28
+	},
+	{
+		"id": 64,
+		"name_ar": "التغَابُن",
+		"name_en": "At-Taghābun",
+		"ayahs": 18,
+		"revelation_place_ar": "مدنية",
+		"revelation_place_en": "Medinan",
+		"ayah_start": 5200,
+		"ayah_end": 5217,
+		"juz": 28
+	},
+	{
+		"id": 65,
+		"name_ar": "الطَّلَاق",
+		"name_en": "Aṭ-Ṭalāq",
+		"ayahs": 12,
+		"revelation_place_ar": "مدنية",
+		"revelation_place_en": "Medinan",
+		"ayah_start": 5218,
+		"ayah_end": 5229,
+		"juz": 28
+	},
+	{
+		"id": 66,
+		"name_ar": "التَّحرِيم",
+		"name_en": "At-Taḥrīm",
+		"ayahs": 12,
+		"revelation_place_ar": "مدنية",
+		"revelation_place_en": "Medinan",
+		"ayah_start": 5230,
+		"ayah_end": 5241,
+		"juz": 28
+	},
+	{
+		"id": 67,
+		"name_ar": "المُلك",
+		"name_en": "Al-Mulk",
+		"ayahs": 30,
+		"revelation_place_ar": "مكية",
+		"revelation_place_en": "Meccan",
+		"ayah_start": 5242,
+		"ayah_end": 5271,
+		"juz": 29
+	},
+	{
+		"id": 68,
+		"name_ar": "القَلَم",
+		"name_en": "Al-Qalam",
+		"ayahs": 52,
+		"revelation_place_ar": "مكية",
+		"revelation_place_en": "Meccan",
+		"ayah_start": 5272,
+		"ayah_end": 5323,
+		"juz": 29
+	},
+	{
+		"id": 69,
+		"name_ar": "الحَاقة",
+		"name_en": "Al-Ḥāqqah",
+		"ayahs": 52,
+		"revelation_place_ar": "مكية",
+		"revelation_place_en": "Meccan",
+		"ayah_start": 5324,
+		"ayah_end": 5375,
+		"juz": 29
+	},
+	{
+		"id": 70,
+		"name_ar": "المَعَارج",
+		"name_en": "Al-Ma‘ārij",
+		"ayahs": 44,
+		"revelation_place_ar": "مكية",
+		"revelation_place_en": "Meccan",
+		"ayah_start": 5376,
+		"ayah_end": 5419,
+		"juz": 29
+	},
+	{
+		"id": 71,
+		"name_ar": "نُوح",
+		"name_en": "Nūḥ",
+		"ayahs": 28,
+		"revelation_place_ar": "مكية",
+		"revelation_place_en": "Meccan",
+		"ayah_start": 5420,
+		"ayah_end": 5447,
+		"juz": 29
+	},
+	{
+		"id": 72,
+		"name_ar": "الجِن",
+		"name_en": "Al-Jinn",
+		"ayahs": 28,
+		"revelation_place_ar": "مكية",
+		"revelation_place_en": "Meccan",
+		"ayah_start": 5448,
+		"ayah_end": 5475,
+		"juz": 29
+	},
+	{
+		"id": 73,
+		"name_ar": "المُزمل",
+		"name_en": "Al-Muzzammil",
+		"ayahs": 20,
+		"revelation_place_ar": "مكية",
+		"revelation_place_en": "Meccan",
+		"ayah_start": 5476,
+		"ayah_end": 5495,
+		"juz": 29
+	},
+	{
+		"id": 74,
+		"name_ar": "المُدثر",
+		"name_en": "Al-Muddaththir",
+		"ayahs": 56,
+		"revelation_place_ar": "مكية",
+		"revelation_place_en": "Meccan",
+		"ayah_start": 5496,
+		"ayah_end": 5551,
+		"juz": 29
+	},
+	{
+		"id": 75,
+		"name_ar": "القِيَامة",
+		"name_en": "Al-Qiyāmah",
+		"ayahs": 40,
+		"revelation_place_ar": "مكية",
+		"revelation_place_en": "Meccan",
+		"ayah_start": 5552,
+		"ayah_end": 5591,
+		"juz": 29
+	},
+	{
+		"id": 76,
+		"name_ar": "الإنسَان",
+		"name_en": "Al-Insān",
+		"ayahs": 31,
+		"revelation_place_ar": "مدنية",
+		"revelation_place_en": "Medinan",
+		"ayah_start": 5592,
+		"ayah_end": 5622,
+		"juz": 29
+	},
+	{
+		"id": 77,
+		"name_ar": "المُرسَلات",
+		"name_en": "Al-Mursalāt",
+		"ayahs": 50,
+		"revelation_place_ar": "مكية",
+		"revelation_place_en": "Meccan",
+		"ayah_start": 5623,
+		"ayah_end": 5672,
+		"juz": 29
+	},
+	{
+		"id": 78,
+		"name_ar": "النَّبَإ",
+		"name_en": "An-Naba’",
+		"ayahs": 40,
+		"revelation_place_ar": "مكية",
+		"revelation_place_en": "Meccan",
+		"ayah_start": 5673,
+		"ayah_end": 5712,
+		"juz": 30
+	},
+	{
+		"id": 79,
+		"name_ar": "النَّازعَات",
+		"name_en": "An-Nāzi‘āt",
+		"ayahs": 46,
+		"revelation_place_ar": "مكية",
+		"revelation_place_en": "Meccan",
+		"ayah_start": 5713,
+		"ayah_end": 5758,
+		"juz": 30
+	},
+	{
+		"id": 80,
+		"name_ar": "عَبَسَ",
+		"name_en": "‘Abasa",
+		"ayahs": 42,
+		"revelation_place_ar": "مكية",
+		"revelation_place_en": "Meccan",
+		"ayah_start": 5759,
+		"ayah_end": 5800,
+		"juz": 30
+	},
+	{
+		"id": 81,
+		"name_ar": "التَّكوير",
+		"name_en": "At-Takwīr",
+		"ayahs": 29,
+		"revelation_place_ar": "مكية",
+		"revelation_place_en": "Meccan",
+		"ayah_start": 5801,
+		"ayah_end": 5829,
+		"juz": 30
+	},
+	{
+		"id": 82,
+		"name_ar": "الانفِطَار",
+		"name_en": "Al-Infiṭār",
+		"ayahs": 19,
+		"revelation_place_ar": "مكية",
+		"revelation_place_en": "Meccan",
+		"ayah_start": 5830,
+		"ayah_end": 5848,
+		"juz": 30
+	},
+	{
+		"id": 83,
+		"name_ar": "المُطَففين",
+		"name_en": "Al-Muṭaffifīn",
+		"ayahs": 36,
+		"revelation_place_ar": "مكية",
+		"revelation_place_en": "Meccan",
+		"ayah_start": 5849,
+		"ayah_end": 5884,
+		"juz": 30
+	},
+	{
+		"id": 84,
+		"name_ar": "الانشِقَاق",
+		"name_en": "Al-Inshiqāq",
+		"ayahs": 25,
+		"revelation_place_ar": "مكية",
+		"revelation_place_en": "Meccan",
+		"ayah_start": 5885,
+		"ayah_end": 5909,
+		"juz": 30
+	},
+	{
+		"id": 85,
+		"name_ar": "البُرُوج",
+		"name_en": "Al-Burūj",
+		"ayahs": 22,
+		"revelation_place_ar": "مكية",
+		"revelation_place_en": "Meccan",
+		"ayah_start": 5910,
+		"ayah_end": 5931,
+		"juz": 30
+	},
+	{
+		"id": 86,
+		"name_ar": "الطَّارق",
+		"name_en": "Aṭ-Ṭāriq",
+		"ayahs": 17,
+		"revelation_place_ar": "مكية",
+		"revelation_place_en": "Meccan",
+		"ayah_start": 5932,
+		"ayah_end": 5948,
+		"juz": 30
+	},
+	{
+		"id": 87,
+		"name_ar": "الأعلى",
+		"name_en": "Al-A‘lā",
+		"ayahs": 19,
+		"revelation_place_ar": "مكية",
+		"revelation_place_en": "Meccan",
+		"ayah_start": 5949,
+		"ayah_end": 5967,
+		"juz": 30
+	},
+	{
+		"id": 88,
+		"name_ar": "الغَاشِية",
+		"name_en": "Al-Ghāshiyah",
+		"ayahs": 26,
+		"revelation_place_ar": "مكية",
+		"revelation_place_en": "Meccan",
+		"ayah_start": 5968,
+		"ayah_end": 5993,
+		"juz": 30
+	},
+	{
+		"id": 89,
+		"name_ar": "الفَجر",
+		"name_en": "Al-Fajr",
+		"ayahs": 30,
+		"revelation_place_ar": "مكية",
+		"revelation_place_en": "Meccan",
+		"ayah_start": 5994,
+		"ayah_end": 6023,
+		"juz": 30
+	},
+	{
+		"id": 90,
+		"name_ar": "البَلَد",
+		"name_en": "Al-Balad",
+		"ayahs": 20,
+		"revelation_place_ar": "مكية",
+		"revelation_place_en": "Meccan",
+		"ayah_start": 6024,
+		"ayah_end": 6043,
+		"juz": 30
+	},
+	{
+		"id": 91,
+		"name_ar": "الشَّمس",
+		"name_en": "Ash-Shams",
+		"ayahs": 15,
+		"revelation_place_ar": "مكية",
+		"revelation_place_en": "Meccan",
+		"ayah_start": 6044,
+		"ayah_end": 6058,
+		"juz": 30
+	},
+	{
+		"id": 92,
+		"name_ar": "اللَّيل",
+		"name_en": "Al-Lail",
+		"ayahs": 21,
+		"revelation_place_ar": "مكية",
+		"revelation_place_en": "Meccan",
+		"ayah_start": 6059,
+		"ayah_end": 6079,
+		"juz": 30
+	},
+	{
+		"id": 93,
+		"name_ar": "الضُّحى",
+		"name_en": "Aḍ-Ḍuḥā",
+		"ayahs": 11,
+		"revelation_place_ar": "مكية",
+		"revelation_place_en": "Meccan",
+		"ayah_start": 6080,
+		"ayah_end": 6090,
+		"juz": 30
+	},
+	{
+		"id": 94,
+		"name_ar": "الشَّرح",
+		"name_en": "Ash-Sharḥ",
+		"ayahs": 8,
+		"revelation_place_ar": "مكية",
+		"revelation_place_en": "Meccan",
+		"ayah_start": 6091,
+		"ayah_end": 6098,
+		"juz": 30
+	},
+	{
+		"id": 95,
+		"name_ar": "التِّين",
+		"name_en": "At-Tīn",
+		"ayahs": 8,
+		"revelation_place_ar": "مكية",
+		"revelation_place_en": "Meccan",
+		"ayah_start": 6099,
+		"ayah_end": 6106,
+		"juz": 30
+	},
+	{
+		"id": 96,
+		"name_ar": "العَلَق",
+		"name_en": "Al-‘Alaq",
+		"ayahs": 19,
+		"revelation_place_ar": "مكية",
+		"revelation_place_en": "Meccan",
+		"ayah_start": 6107,
+		"ayah_end": 6125,
+		"juz": 30
+	},
+	{
+		"id": 97,
+		"name_ar": "القَدر",
+		"name_en": "Al-Qadr",
+		"ayahs": 5,
+		"revelation_place_ar": "مكية",
+		"revelation_place_en": "Meccan",
+		"ayah_start": 6126,
+		"ayah_end": 6130,
+		"juz": 30
+	},
+	{
+		"id": 98,
+		"name_ar": "البَينَة",
+		"name_en": "Al-Bayyinah",
+		"ayahs": 8,
+		"revelation_place_ar": "مدنية",
+		"revelation_place_en": "Medinan",
+		"ayah_start": 6131,
+		"ayah_end": 6138,
+		"juz": 30
+	},
+	{
+		"id": 99,
+		"name_ar": "الزَّلزَلة",
+		"name_en": "Az-Zalzalah",
+		"ayahs": 8,
+		"revelation_place_ar": "مدنية",
+		"revelation_place_en": "Medinan",
+		"ayah_start": 6139,
+		"ayah_end": 6146,
+		"juz": 30
+	},
+	{
+		"id": 100,
+		"name_ar": "العَاديَات",
+		"name_en": "Al-‘Ādiyāt",
+		"ayahs": 11,
+		"revelation_place_ar": "مكية",
+		"revelation_place_en": "Meccan",
+		"ayah_start": 6147,
+		"ayah_end": 6157,
+		"juz": 30
+	},
+	{
+		"id": 101,
+		"name_ar": "القَارعَة",
+		"name_en": "Al-Qāri‘ah",
+		"ayahs": 11,
+		"revelation_place_ar": "مكية",
+		"revelation_place_en": "Meccan",
+		"ayah_start": 6158,
+		"ayah_end": 6168,
+		"juz": 30
+	},
+	{
+		"id": 102,
+		"name_ar": "التَّكاثُر",
+		"name_en": "At-Takāthur",
+		"ayahs": 8,
+		"revelation_place_ar": "مكية",
+		"revelation_place_en": "Meccan",
+		"ayah_start": 6169,
+		"ayah_end": 6176,
+		"juz": 30
+	},
+	{
+		"id": 103,
+		"name_ar": "العَصر",
+		"name_en": "Al-‘Aṣr",
+		"ayahs": 3,
+		"revelation_place_ar": "مكية",
+		"revelation_place_en": "Meccan",
+		"ayah_start": 6177,
+		"ayah_end": 6179,
+		"juz": 30
+	},
+	{
+		"id": 104,
+		"name_ar": "الهُمَزة",
+		"name_en": "Al-Humazah",
+		"ayahs": 9,
+		"revelation_place_ar": "مكية",
+		"revelation_place_en": "Meccan",
+		"ayah_start": 6180,
+		"ayah_end": 6188,
+		"juz": 30
+	},
+	{
+		"id": 105,
+		"name_ar": "الفِيل",
+		"name_en": "Al-Fīl",
+		"ayahs": 5,
+		"revelation_place_ar": "مكية",
+		"revelation_place_en": "Meccan",
+		"ayah_start": 6189,
+		"ayah_end": 6193,
+		"juz": 30
+	},
+	{
+		"id": 106,
+		"name_ar": "قُرَيش",
+		"name_en": "Quraish",
+		"ayahs": 4,
+		"revelation_place_ar": "مكية",
+		"revelation_place_en": "Meccan",
+		"ayah_start": 6194,
+		"ayah_end": 6197,
+		"juz": 30
+	},
+	{
+		"id": 107,
+		"name_ar": "المَاعُون",
+		"name_en": "Al-Mā‘ūn",
+		"ayahs": 7,
+		"revelation_place_ar": "مكية",
+		"revelation_place_en": "Meccan",
+		"ayah_start": 6198,
+		"ayah_end": 6204,
+		"juz": 30
+	},
+	{
+		"id": 108,
+		"name_ar": "الكَوثر",
+		"name_en": "Al-Kauthar",
+		"ayahs": 3,
+		"revelation_place_ar": "مكية",
+		"revelation_place_en": "Meccan",
+		"ayah_start": 6205,
+		"ayah_end": 6207,
+		"juz": 30
+	},
+	{
+		"id": 109,
+		"name_ar": "الكافِرون",
+		"name_en": "Al-Kāfirūn",
+		"ayahs": 6,
+		"revelation_place_ar": "مكية",
+		"revelation_place_en": "Meccan",
+		"ayah_start": 6208,
+		"ayah_end": 6213,
+		"juz": 30
+	},
+	{
+		"id": 110,
+		"name_ar": "النَّصر",
+		"name_en": "An-Naṣr",
+		"ayahs": 3,
+		"revelation_place_ar": "مدنية",
+		"revelation_place_en": "Medinan",
+		"ayah_start": 6214,
+		"ayah_end": 6216,
+		"juz": 30
+	},
+	{
+		"id": 111,
+		"name_ar": "المَسَد",
+		"name_en": "Al-Masad",
+		"ayahs": 5,
+		"revelation_place_ar": "مكية",
+		"revelation_place_en": "Meccan",
+		"ayah_start": 6217,
+		"ayah_end": 6221,
+		"juz": 30
+	},
+	{
+		"id": 112,
+		"name_ar": "الإخلَاص",
+		"name_en": "Al-Ikhlāṣ",
+		"ayahs": 4,
+		"revelation_place_ar": "مكية",
+		"revelation_place_en": "Meccan",
+		"ayah_start": 6222,
+		"ayah_end": 6225,
+		"juz": 30
+	},
+	{
+		"id": 113,
+		"name_ar": "الفَلَق",
+		"name_en": "Al-Falaq",
+		"ayahs": 5,
+		"revelation_place_ar": "مكية",
+		"revelation_place_en": "Meccan",
+		"ayah_start": 6226,
+		"ayah_end": 6230,
+		"juz": 30
+	},
+	{
+		"id": 114,
+		"name_ar": "النَّاس",
+		"name_en": "An-Nās",
+		"ayahs": 6,
+		"revelation_place_ar": "مكية",
+		"revelation_place_en": "Meccan",
+		"ayah_start": 6231,
+		"ayah_end": 6236,
+		"juz": 30
+	}
+]
