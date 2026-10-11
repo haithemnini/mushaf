@@ -2,7 +2,7 @@ name: mushaf
 description: >
   Flutter mushaf with Hafs and Warsh bundled and ready to read, including
   ayah selection, page navigation, fullscreen, and book layout.
-version: 0.2.0
+version: 0.2.1
 homepage: https://github.com/haithemnini/mushaf
 repository: https://github.com/haithemnini/mushaf
 issue_tracker: https://github.com/haithemnini/mushaf/issues

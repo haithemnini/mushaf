@@ -1,3 +1,7 @@
+## 0.2.1
+
+- Corrected the Fatiha previews: Warsh on the left, Hafs on the right.
+
 ## 0.2.0
 
 - Hafs (QCF4) and Warsh now ship inside the package. `Mushaf.initialize()`

@@ -17,21 +17,21 @@ A Flutter mushaf reader for **Hafs (QCF4)** and **Warsh**: surah list, page turn
 
 من مثال الحزمة على macOS.
 
-| قائمة السور | ورش — الفاتحة |
+| ورش — الفاتحة | حفص — الفاتحة |
 | --- | --- |
-| ![قائمة السور والتبديل بين حفص وورش](screenshots/surah-list.png) | ![سورة الفاتحة برواية ورش](screenshots/warsh-fatiha.png) |
+| ![سورة الفاتحة برواية ورش](screenshots/warsh-fatiha.png) | ![سورة الفاتحة برواية حفص](screenshots/hafs-fatiha.png) |
 
-| حفص بالتجويد | تحديد الآية |
+| قائمة السور | حفص بالتجويد |
 | --- | --- |
-| ![صفحة حفص ملوّنة بالتجويد](screenshots/hafs-tajweed.png) | ![ضغط مطوّل يظلل الآية](screenshots/hafs-highlight.png) |
+| ![قائمة السور والتبديل بين حفص وورش](screenshots/surah-list.png) | ![صفحة حفص ملوّنة بالتجويد](screenshots/hafs-tajweed.png) |
 
-| ملء الشاشة | إطار الكتاب |
+| تحديد الآية | ملء الشاشة |
 | --- | --- |
-| ![صفحة حفص بملء الشاشة](screenshots/hafs-plain.png) | ![الصفحة داخل إطار الكتاب](screenshots/hafs-book.png) |
+| ![ضغط مطوّل يظلل الآية](screenshots/hafs-highlight.png) | ![صفحة حفص بملء الشاشة](screenshots/hafs-plain.png) |
 
-صفحتان متقابلتان في الوضع الأفقي العريض:
-
-![حفص، الصفحتان ٤٣ و٤٤](screenshots/hafs-spread.png)
+| إطار الكتاب | صفحتان متقابلتان |
+| --- | --- |
+| ![الصفحة داخل إطار الكتاب](screenshots/hafs-book.png) | ![حفص، الصفحتان ٤٣ و٤٤](screenshots/hafs-spread.png) |
 
 ## ماذا ترى في القارئ
 
@@ -48,7 +48,7 @@ A Flutter mushaf reader for **Hafs (QCF4)** and **Warsh**: surah list, page turn
 
 ```yaml
 dependencies:
-  mushaf: ^0.2.0
+  mushaf: ^0.2.1
 ```
 
 ```dart
