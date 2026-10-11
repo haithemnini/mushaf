@@ -2,7 +2,7 @@ name: mushaf
 description: >
   Flutter mushaf reader for Hafs (QCF4) and Warsh, with ayah selection,
   page navigation, fullscreen, and book layout.
-version: 0.1.0
+version: 0.1.1
 homepage: https://github.com/haithemnini/mushaf
 repository: https://github.com/haithemnini/mushaf
 issue_tracker: https://github.com/haithemnini/mushaf/issues

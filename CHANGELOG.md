@@ -1,3 +1,10 @@
+## 0.1.1
+
+- Added reader screenshots to the package page: surah list, Warsh, Hafs
+  tajweed, ayah highlight, fullscreen, book frame, and a two-page spread.
+- Rewrote the README so the reading options and the local pack setup are
+  easier to follow.
+
 ## 0.1.0
 
 - First open-source release.

@@ -1,21 +1,48 @@
 # mushaf
 
-قارئ مصحف لـ Flutter يجمع **حفص (QCF4)** و**ورش** في حزمة واحدة: تحديد الآية، الانتقال إلى صفحة أو آية، ملء الشاشة، إطار الكتاب، صفحتان في الوضع الأفقي العريض، شريط الصفحات أو المنزلق، الساعة، والخلفية السوداء. التجويد متاح لحفص.
+قارئ مصحف جاهز لـ Flutter، بروايتي **حفص عن عاصم** و**ورش عن نافع** في حزمة واحدة.
 
-Flutter mushaf reader for **Hafs (QCF4)** and **Warsh**: ayah selection, page and ayah jumps, fullscreen, book frame, a two-page landscape spread, page strip or scrubber, clock, and a black canvas in dark mode. Tajweed coloring is available for Hafs.
+تفتح سورة، تقلب الصفحات، وتضغط ضغطاً مطوّلاً على الآية لتحديدها. من الإعدادات تختار ملء الشاشة أو شكل الكتاب، والتمرير الأفقي أو العمودي، وصفحة واحدة أو صفحتين عندما تكون النافذة عريضة وأفقية. حفص يُرسم بخطوط QCF4، ويمكن تلوين التجويد. ورش يُرسم بخط واحد مع ضبط السطور.
 
-نص الآيات وخطوط الصفحات **ليست** داخل الحزمة. المضيف يفك ضغط الحزمة محلياً ثم يسجّلها. انظر [NOTICE.md](NOTICE.md).
+A Flutter mushaf reader for **Hafs (QCF4)** and **Warsh**: surah list, page turns, long-press ayah selection, fullscreen or book frame, and a two-page spread on a wide landscape window.
 
-Ayah text and page fonts are **not** bundled. Register a local pack. See [NOTICE.md](NOTICE.md).
+## المعاينة
 
-## Install
+من مثال الحزمة على macOS.
+
+| قائمة السور | ورش — الفاتحة |
+| --- | --- |
+| ![قائمة السور والتبديل بين حفص وورش](screenshots/surah-list.png) | ![سورة الفاتحة برواية ورش](screenshots/warsh-fatiha.png) |
+
+| حفص بالتجويد | تحديد الآية |
+| --- | --- |
+| ![صفحة حفص ملوّنة بالتجويد](screenshots/hafs-tajweed.png) | ![ضغط مطوّل يظلل الآية](screenshots/hafs-highlight.png) |
+
+| ملء الشاشة | إطار الكتاب |
+| --- | --- |
+| ![صفحة حفص بملء الشاشة](screenshots/hafs-plain.png) | ![الصفحة داخل إطار الكتاب](screenshots/hafs-book.png) |
+
+صفحتان متقابلتان في الوضع الأفقي العريض:
+
+![حفص، الصفحتان ٤٣ و٤٤](screenshots/hafs-spread.png)
+
+## ماذا ترى في القارئ
+
+- قائمة السور مع البحث، والتبديل بين حفص (604 صفحة) وورش (599 صفحة).
+- تحديد الآية بالضغط المطوّل، مع تمييزها، والانتقال إلى صفحة أو آية.
+- ملء الشاشة، أو إطار كتاب بحواف الصفحات.
+- تمرير أفقي أو عمودي.
+- في النافذة العريضة الأفقية: صفحة واحدة أو صفحتان.
+- شريط مصغّرات للصفحات، أو منزلق يقفز عند الإفلات.
+- ساعة اختيارية، وخلفية سوداء في الوضع الليلي.
+- تلوين التجويد لحفص فقط.
+
+## التثبيت
 
 ```yaml
 dependencies:
-  mushaf: ^0.1.0
+  mushaf: ^0.1.1
 ```
-
-## Quick start
 
 ```dart
 import 'package:flutter/material.dart';
@@ -35,18 +62,21 @@ MushafReader(
   riwayah: MushafRiwayah.hafs,
   initialPage: 1,
   settings: const MushafReadingSettings(),
-  onSettingsChanged: (next) {},
+  onSettingsChanged: (settings) {},
   onAyahLongPress: (ref) {},
 )
 ```
 
-`MushafReaderController.goToPage` and `goToAyah` move the highlight and the page. Warsh is `MushafRiwayah.warsh` after `registerMushafWarsh`.
+`MushafReaderController.goToPage` و`goToAyah` ينقلان الصفحة ويميزان الآية. لورش استخدم `MushafRiwayah.warsh` بعد `registerMushafWarsh`.
 
-## Pack layout
+## من أين تأتي الصفحات؟
 
-`MUSHAF_HAFS_ROOT` is the extracted Hafs pack that contains `assets/quran/hafs_qcf4/` (QCF4 fonts, `qpc-v4.json.gz`, ayah info). `MUSHAF_WARSH_ROOT` is the extracted Warsh pack that contains `assets/quran/warsh/` and the Warsh fonts.
+الحزمة هي برنامج الرسم والقراءة. نص الآيات وخطوط الصفحات يوفّرها تطبيقك، لأن ملفات حفص وحدها أكبر من حد النشر على pub.dev، وحقوقها مستقلة عن رخصة الكود.
 
-## Example
+بعد فك ضغط الحزمة على الجهاز:
+
+- حفص: مجلد يحتوي `assets/quran/hafs_qcf4/` (خط لكل صفحة، وملفات التخطيط).
+- ورش: مجلد يحتوي `assets/quran/warsh/` وخطوط ورش.
 
 ```bash
 cd example
@@ -55,8 +85,8 @@ flutter run \
   --dart-define=MUSHAF_WARSH_ROOT=/path/to/extracted/warsh
 ```
 
-Without those paths the example explains how to pass them.
+بدون هذين المسارين يفتح المثال ويشرح أن النسخة غير مسجّلة.
 
-## License
+## الترخيص
 
-MIT for the Dart source. Fonts and Quran text keep their own terms. See [LICENSE](LICENSE) and [NOTICE.md](NOTICE.md).
+كود Dart تحت رخصة MIT. الخطوط ونص القرآن لهما شروط أصحاب الحقوق. راجع [LICENSE](LICENSE) و[NOTICE.md](NOTICE.md).
